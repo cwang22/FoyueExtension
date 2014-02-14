@@ -1,3 +1,2 @@
 #FoyueChromeExtension
-====================
-a toy extension to encode/decode text using foyue text
+Encode/decode text using foyue text
