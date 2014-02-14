@@ -4,7 +4,7 @@
   "name": "佛曰",
   "description": "A toy extension to encode/decode text use foyue",
   "version": "0.2",
-  "background" : { "scripts": ["background.js"] },
+  "background" : { "scripts": ["js/background.js"] },
   "permissions": [
     "contextMenus",
     "http://www.keyfc.net/bbs/tools/tudou.aspx"
