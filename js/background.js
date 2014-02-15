@@ -1,10 +1,10 @@
 var script = document.createElement('script');
-script.src = 'jquery.min.js';
+script.src = 'js/jquery.min.js';
 script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 
 chrome.contextMenus.create({
- "title": "佛曰",
+ "title": "佛易",
  "type": "normal",
  "id": "parent",
  "contexts":["selection"]
