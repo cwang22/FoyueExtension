@@ -38,7 +38,7 @@ function getContent(info, tab) {
 	}
 
 	$.post(url, {
-		"data" : encodeURIComponent(data),
+		"orignalMsg" : encodeURIComponent(data),
 		"action" : action
 	}, function(data) {
 		prompt("结果：", $(data).find("Message").text());
